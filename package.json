@@ -1,0 +1,20 @@
+{
+  "name": "tailwindcss-types-issue",
+  "version": "1.0.0",
+  "author": "Evgeny Nizhibitsky",
+  "description": "Reproducing tailwindcss types issue",
+  "license": "MIT",
+  "scripts": {
+    "ts": "ts-node src/index.ts",
+    "js": "node src/index.cjs"
+  },
+  "dependencies": {
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "typescript": "^4.9.5"
+  }
+}
